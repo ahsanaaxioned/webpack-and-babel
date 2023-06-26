@@ -1,24 +1,21 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+   <div>
+    <h1>Hello Axioned</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore distinctio, deserunt cupiditate totam voluptas ipsam, nisi, quae eveniet cum dolorem? Officiis in excepturi dolorem assumenda. Nobis commodi est ad.</p>
+   </div>
+
+
+  // React.createElement(
+  //   'div',
+  //   {className:'bable'},
+  //   React.createElement('h1',null,'Hello axioned'),
+  //   React.createElement('p',null,'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci dolore distinctio, deserunt cupiditate totam voluptas ipsam, nisi, quae eveniet cum dolorem? Officiis in excepturi dolorem assumenda. Nobis commodi est ad.')
+  // )
   );
 }
 
